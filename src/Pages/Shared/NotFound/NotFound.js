@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ServiceSection = () => {
+const NotFound = () => {
     return (
         <div>
-            
+            <h1>Not Found</h1>
         </div>
     );
 };
 
-export default ServiceSection;
+export default NotFound;
