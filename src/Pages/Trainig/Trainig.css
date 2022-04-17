@@ -6,6 +6,20 @@
     font-size: 18px;
 }
 
+.fitness-title {
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.fitness-title hr {
+    color: white;
+    height: 10px;
+}
+
 .left-cont img {
     width: 100%;
     border-radius: 10px;

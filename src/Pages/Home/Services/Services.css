@@ -7,6 +7,18 @@
 .services-title {
     margin-bottom: 30px;
     text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+.services-title span {
+    color: orangered;
+}
+
+.services-title hr {
+    color: white;
+    height: 10px;
 }
 
 

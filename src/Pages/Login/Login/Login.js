@@ -7,6 +7,7 @@ import Loading from "../../Shared/Loading/Loading";
 import Social from "../Social/Social";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import './Login.css'
 
 const Login = () => {
 
@@ -63,25 +64,25 @@ const Login = () => {
 
   return (
     <div className="container w-50 mx-auto">
-      <h1 className="text-center">Please Login</h1>
+      <h1 className="text-center user-title mt-5">Please Login</h1>
       <Form onSubmit={handleFromSubmit}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email address</Form.Label>
+          <Form.Label className="email-title">Email address</Form.Label>
           <Form.Control ref={emailRef} type="email" placeholder="Enter email" required/>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
+          <Form.Label className="pass-title">Password</Form.Label>
           <Form.Control ref={passwordRef} type="password" placeholder="Password" required/>
         </Form.Group>
-        <Button variant="primary d-block mx-auto my-3 w-50" type="submit">
+        <Button className="user-button d-block mx-auto my-5 w-50" type="submit">
           Login
         </Button>
       </Form>
 
       {errorElement}
-      <p>New To Gym Trainer? <Link to='/register' className="text-primary pe-auto text-decoration-none" onClick={navigateRegister}>Please Register</Link> </p>
-      <p>Forget Password? <button className="btn btn-link text-primary text-decoration-none" onClick={resetPassword}>Reset Password</button> </p> 
+      <p>New To Gym Trainer? <Link to='/register' className="common-title pe-auto text-decoration-none" onClick={navigateRegister}>Please Register</Link> </p>
+      <p>Forget Password? <button className="btn btn-link common-title text-decoration-none" onClick={resetPassword}>Reset Password</button> </p> 
 
       <Social></Social> 
       <ToastContainer />

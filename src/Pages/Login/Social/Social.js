@@ -5,6 +5,7 @@ import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/a
 import auth from '../../../firebase.init';
 import { useNavigate } from 'react-router-dom';
 import Loading from '../../Shared/Loading/Loading';
+import './Social.css'
 
 const Social = () => {
 
@@ -31,7 +32,7 @@ const Social = () => {
         <div>
             <div className='d-flex align-items-center'>
                 <div style={{height: '1px'}} className='bg-secondary w-50'></div>
-                <p className='mt-2 px-3'>or</p>
+                <p className='or-title mt-2 px-3'>or</p>
                 <div style={{height: '1px'}} className='bg-secondary w-50'></div>
             </div>
 

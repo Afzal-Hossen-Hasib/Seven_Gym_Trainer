@@ -21,7 +21,7 @@ const Footer = () => {
                         <Link to='/about'>About</Link>
                     </li>
                     </ul>
-                    <p className='footer-title'>Fitness <span>Friends</span> @ {year}</p>
+                    <p className='footer-title'>Fitness <span>Friends</span> &#169; {year}</p>
                 </div> 
             </footer>
     );

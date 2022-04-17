@@ -5,7 +5,7 @@ import './Trainig.css'
 const Trainig = () => {
     return (
         <div id='training' className='container finess-section'>
-                <h3 className='text-center mb-4'>FITNESS <span>FRIENDS</span> TRAINING CREDO <hr /></h3>
+                <h4 className='text-center fitness-title mb-4'>FITNESS <span>FRIENDS</span> TRAINING CREDO <hr /></h4>
                 <div className="my-card">
                 <div className="row">
                 <div className="col-md-6">

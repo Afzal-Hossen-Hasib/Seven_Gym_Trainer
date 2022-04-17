@@ -9,7 +9,7 @@ const ServiceDetailSection = () => {
 
     return (
         <div className='container'>
-            <h2 className='fitness-title text-center mb-5'> <span>WHY FITNESS FRIENDS</span> WILL WORK FOR YOU <hr/> </h2> 
+            <h2 className='fitness-title text-center my-5'> <span>WHY FITNESS FRIENDS</span> WILL WORK FOR YOU </h2> 
             <div className="card-section">
                 <div className="row">
                     <div className='col-md-5'>
