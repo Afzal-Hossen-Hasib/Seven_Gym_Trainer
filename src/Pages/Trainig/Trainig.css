@@ -1,0 +1,17 @@
+.fitness img {
+    width: 100%;
+}
+
+.finess-section {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+
+.fitness-detail {
+    text-align: justify;
+    padding-right: 30px;
+}
+
+.fitness-detail span {
+    color: orangered;
+}

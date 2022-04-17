@@ -13,7 +13,7 @@ const Header = () => {
     const handleSignOut = () => {
         signOut(auth);
     }
- 
+    
     return (
         <>
   <Navbar collapseOnSelect expand="lg" sticky='top' bg="dark" variant="dark mb-5">
@@ -25,6 +25,7 @@ const Header = () => {
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
       <Nav.Link href="home#services">Services</Nav.Link> 
+      <Nav.Link href="home#training">Training</Nav.Link> 
       <Nav.Link as={Link} to="/checkout">Checkout</Nav.Link>
     </Nav>
     <Nav>

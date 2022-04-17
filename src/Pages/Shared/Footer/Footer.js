@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css'
 
 const Footer = () => {
 
@@ -6,8 +7,21 @@ const Footer = () => {
     const year = today.getFullYear();
 
     return (
-            <footer>
-                <p className='text-center mt-5'>Copyright @ {year}</p> 
+            <footer className='footer-section'>
+                <div className='footer'>
+                    <ul className='footer-list'>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    </ul>
+                    <p className='footer-title'>Fitness <span>Friends</span> @ {year}</p>
+                </div> 
             </footer>
     );
 };
