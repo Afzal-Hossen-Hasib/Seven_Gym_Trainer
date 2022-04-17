@@ -2,6 +2,19 @@
     color: orangered;
 }
 
+.left-section img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.fitness-detail {
+    position: relative;
+    border-radius: 10px;
+    height: 100%;
+    padding: 25px;
+    font-size: 18px;
+}
+
 .check-button {
     margin: 50px auto;
     border: none;

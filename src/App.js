@@ -14,7 +14,7 @@ import Blog from './Pages/Shared/Blog/Blog';
 
 function App() {
   return (
-    <div>
+    <div className=''>
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>

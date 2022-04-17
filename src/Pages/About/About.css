@@ -1,0 +1,17 @@
+.mission-title {
+    background-color: black;
+    color: orangered;
+    padding: 10px 0;
+}
+
+.about-left img{
+    width: 100%;
+}
+
+.about-right span {
+    color: orangered;
+}
+
+.about-right p {
+    font-size: 17px;
+}

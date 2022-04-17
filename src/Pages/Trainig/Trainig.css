@@ -1,10 +1,20 @@
-.fitness img {
+.right-cont {
+    position: relative;
+    border-radius: 10px;
+    height: 100%;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.left-cont img {
     width: 100%;
+    border-radius: 10px;
 }
 
 .finess-section {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 10px;
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
 }
 
 .fitness-detail {
@@ -12,7 +22,7 @@
     padding-right: 30px;
 }
 
-.fitness-detail span {
+.finess-section span {
     color: orangered;
 }
 
