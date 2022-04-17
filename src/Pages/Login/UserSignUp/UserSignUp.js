@@ -1,11 +1,13 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Button, Form } from "react-bootstrap";
-import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
+import { useCreateUserWithEmailAndPassword, useUpdateProfile } from "react-firebase-hooks/auth";
 import { Link, useNavigate } from "react-router-dom";
 import auth from "../../../firebase.init";
+import Social from "../Social/Social";
 
 const UserSignUp = () => {
 
+    const [agree, setAgree] = useState(false);
     const navigate = useNavigate ();
     const emailRef = useRef ('');
     const passwordRef = useRef ('');
@@ -16,23 +18,23 @@ const UserSignUp = () => {
         user,
         loading,
         error,
-      ] = useCreateUserWithEmailAndPassword(auth);
+      ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification: true});
+
+      const [updateProfile, updating, sendError] = useUpdateProfile(auth);
 
       const navigateLogin = () => {
         navigate ('/login');
     }
-
-    if (user) {
-        navigate ('/home');
-    }
    
-    const handlesignUp = event => {
+    const handlesignUp = async (event) => {
         event.preventDefault();
         const name = nameRef.current.value;
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
 
-        createUserWithEmailAndPassword(email, password);
+        await createUserWithEmailAndPassword(email, password);
+        await updateProfile({ displayName: name});
+        navigate ('/home');
     }
 
 
@@ -42,7 +44,8 @@ const UserSignUp = () => {
       <Form onSubmit={handlesignUp}>
         <Form.Group className="mb-3">
           <Form.Label>Your Name</Form.Label>
-          <Form.Control ref={nameRef} type="text" placeholder="Enter Name" />
+          <Form.Control ref={nameRef} type="text"
+          name="name" placeholder="Enter Name" />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -54,7 +57,12 @@ const UserSignUp = () => {
           <Form.Label>Password</Form.Label>
           <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
         </Form.Group>
-        <Button variant="primary" type="submit">
+
+        <Form.Group className="mb-3" controlId="formBasicCheckbox"> 
+          <Form.Check onClick={() => setAgree(!agree)} type="checkbox" name="terms" label="Accept Terms And Conditon" />
+        </Form.Group>
+
+        <Button disabled={!agree} variant="primary d-block mx-auto my-3 w-50" type="submit">
           Register
         </Button>
       </Form>
@@ -68,6 +76,7 @@ const UserSignUp = () => {
           Please Login
         </Link>
       </p>
+      <Social></Social> 
     </div>
   );
 };
