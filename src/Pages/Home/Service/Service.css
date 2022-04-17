@@ -25,6 +25,11 @@
     margin-top: 10px;
 }
 
+.service-button:hover {
+    background-color: black;
+    color: orangered;
+}
+
 
 @media only screen and (max-width: 576px) {
     .service-container img {

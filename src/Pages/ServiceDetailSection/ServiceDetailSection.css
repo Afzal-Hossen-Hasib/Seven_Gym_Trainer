@@ -25,3 +25,8 @@
     border-radius: 10px;
 }
 
+.check-button:hover {
+    background-color: black;
+    color: orangered;
+}
+
