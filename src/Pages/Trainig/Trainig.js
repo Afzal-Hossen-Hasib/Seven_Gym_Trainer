@@ -25,7 +25,7 @@ const Trainig = () => {
                     <li>Run around with their kids, or grandkids, without feeling pain, winded or tired; and do it again the next day</li>
                     <li>Add 10+ years of healthy living to their retirement</li>
                 </ul>
-                <button className='d-block mx-auto'>Read More..</button>
+                <button className='training-button d-block mx-auto'>Read More..</button>
             </div>
         </div>
         </div>

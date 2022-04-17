@@ -14,7 +14,7 @@ const Service = ({service}) => {
     return (
         <div className='service-container'>
             <img src={picture} alt="" />
-            <h4 className='my-3'>{name}</h4>
+            <h4 className='my-4'>{name}</h4>
             <p>{desription}</p>
             <button className='service-button' onClick={() => navigteToServiceSection(id)}>Check Out</button>
         </div>

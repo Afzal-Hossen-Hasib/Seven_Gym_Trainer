@@ -3,6 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import banner1 from '../../../image/Banner/valery-sysoev-LDAirERNzew-unsplash (1).jpg'
 import banner2 from '../../../image/Banner/victor-freitas-nA0UDNDbxys-unsplash (1).jpg'
 import banner3 from '../../../image/Banner/victor-freitas-WvDYdXDzkhs-unsplash (1).jpg'
+import './Banner.css'
 
 const Banner = () => {
 
@@ -11,8 +12,9 @@ const Banner = () => {
     const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
     };
+
     return (
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel className='banner' activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -20,8 +22,8 @@ const Banner = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>LET'S GET FIT..</h3> 
+          <p>Take The First Step To Success.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -32,8 +34,8 @@ const Banner = () => {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>LET'S GET FIT..</h3> 
+          <p>Take The First Step To Success.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -44,10 +46,8 @@ const Banner = () => {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>LET'S GET FIT..</h3> 
+          <p>Take The First Step To Success.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

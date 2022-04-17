@@ -1,7 +1,8 @@
 .service-container {
-    border: 1px solid lightgray;
     padding-bottom: 10px;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 .service-container p {
@@ -21,6 +22,7 @@
     font-size: 18px;
     padding: 5px 10px;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 
