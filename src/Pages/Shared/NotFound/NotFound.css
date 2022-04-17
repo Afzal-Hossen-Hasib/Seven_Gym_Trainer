@@ -1,0 +1,11 @@
+.error-container {
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+}
+
+.error-container img{
+    margin-top: 50px;
+    width: 800px;
+    height: 550px;
+}

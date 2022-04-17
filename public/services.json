@@ -1,44 +1,44 @@
 [
-    {
+  {
+    "id": "625afee3111c485cda58381b",
+    "picture": "https://www.markpersonaltraining.com/uploads/1/1/7/4/117401611/published/4.png?1517339028",
+    "price": 27,
+    "name": "FREE CONSULTATION",
+    "desription": "Before starting your fitness journey we will book a 60 minute consultation, either over the phone or at my private studio, where we will get an opportunity to talk about your needs, your goals, lifestyle habits and your diet and for us to establish if we are a good fit to work together. I will prescribe the best path forward for you to progress and achieve more than you thought possible."
+  },
+  {
+    "id": "625afee395a0428a006f00ce",
+    "picture": "https://previews.123rf.com/images/michaeljung/michaeljung1205/michaeljung120500136/13738057-handsome-male-personal-trainer-in-gym.jpg",
+    "price": 29,
+    "name": "HEALTH ASSESSMENT & FITNESS TESTING",
+    "desription": "Before you can start a training and nutritional plan, or at least one that's actually going to be effective, I will carry out a number of tests to establish your current state of health and fitness. You see there isn't a blueprint for weight management. How you need to train and what you need to eat is different for everyone, even if the goal is the same. It's going to depend on your age, gender, somatotype (body type) and lifestyle."
+  }, 
+  {
       "id": "625afee316634b41d0a88e1b",
       "picture": "https://previews.123rf.com/images/michaeljung/michaeljung1205/michaeljung120500136/13738057-handsome-male-personal-trainer-in-gym.jpg",
       "price": 37,
-      "name": "Diana Chapman",
-      "desription": "846 Montgomery Place, Trucksville, Federated States Of Micronesia, 3732"
+      "name": "COUPLES COACHING",
+      "desription": "Couples Coaching is ideal if you work harder and feel more motivated training with your partner/friend and want to make huge savings on personal training costs. You'll work through the individualised nutrition program I create for you, and exercise alongside your partner to accomplish your health and fitness goals."
     },
     {
       "id": "625afee32777953db4d2d6da",
       "picture": "https://previews.123rf.com/images/michaeljung/michaeljung1205/michaeljung120500136/13738057-handsome-male-personal-trainer-in-gym.jpg",
       "price": 23,
-      "name": "Gertrude Fowler",
-      "desription": "440 Kay Court, Dante, New Mexico, 587"
+      "name": "INDIVIDUALISED ONLINE COACHING",
+      "desription": "Online coaching is ideal if you prefer to train at home (or remotely), but still want all the benefits personal training has to offer such as one-to-one 'virtual' sessions, personalised and tailored nutrition and lifestyle coaching."
     },
     {
       "id": "625afee383b3857a642bc6d9",
       "picture": "https://previews.123rf.com/images/michaeljung/michaeljung1205/michaeljung120500136/13738057-handsome-male-personal-trainer-in-gym.jpg",
       "price": 24,
-      "name": "Park Allison",
-      "desription": "928 Fiske Place, Coldiron, Montana, 1570"
-    },
-    {
-      "id": "625afee3111c485cda58381b",
-      "picture": "https://previews.123rf.com/images/michaeljung/michaeljung1205/michaeljung120500136/13738057-handsome-male-personal-trainer-in-gym.jpg",
-      "price": 27,
-      "name": "Spears Murray",
-      "desription": "626 Clarendon Road, Summerset, West Virginia, 5804"
-    },
-    {
-      "id": "625afee395a0428a006f00ce",
-      "picture": "https://previews.123rf.com/images/michaeljung/michaeljung1205/michaeljung120500136/13738057-handsome-male-personal-trainer-in-gym.jpg",
-      "price": 29,
-      "name": "Beck Patel",
-      "desription": "781 Meadow Street, Thynedale, Nebraska, 4837"
+      "name": "ONE TO ONE COACHING",
+      "desription": "One on one coaching is ideal for you if you need a more personal approach to your training, mindset and nutrition. You'll work with me personally at my private studio to assess your current situation and together, we'll discover fast, safe and effective ways to help you burn, stubborn fat, feel more energised and accomplish your goals."
     },
     {
       "id": "625afee35f1d6b26e3529815",
       "picture": "https://previews.123rf.com/images/michaeljung/michaeljung1205/michaeljung120500136/13738057-handsome-male-personal-trainer-in-gym.jpg",
       "price": 36,
-      "name": "Rachael Terrell",
-      "desription": "716 Rodney Street, Rushford, Nevada, 7569"
+      "name": "ONE-TO-ONE EXERCISE",
+      "desription": "Train with me in at my private studio with free parking. You will not only be training progressively and efficiently but you will also learn HOW to train. I believe in educating my clients, so that one day they will have the motivation and knowledge to be able to train themselves safely and effectively."
     }
   ]

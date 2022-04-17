@@ -4,7 +4,7 @@ import './Service.css'
 
 const Service = ({service}) => {
 
-    const {name, picture, price, desription, id} = service;
+    const {name, picture, desription, id} = service;
     const navigate = useNavigate();
 
     const navigteToServiceSection = id => {
@@ -14,9 +14,8 @@ const Service = ({service}) => {
     return (
         <div className='service-container'>
             <img src={picture} alt="" />
-            <h2>{name}</h2>
-            <h3>{desription}</h3>
-            <p>{price}</p>
+            <h4>{name}</h4>
+            <p>{desription}</p>
             <button onClick={() => navigteToServiceSection(id)}>Check Out</button>
         </div>
     );
